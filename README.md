@@ -22,48 +22,72 @@ Abaixo está a implementação completa da solução, estruturada em **28 linhas
 
 ```html
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Loja Retro Games</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <h1>Loja Retro Games</h1>
-  <p>Bem-vindo! Encontre os <strong>melhores clássicos</strong> e consoles <em>inesquecíveis</em>.</p>
-  
-  <nav>
-    <a href="#produtos">Ver Produtos</a> | 
-    <a href="https://pt.wikipedia.org/wiki/Jogo_eletr%C3%B4nico" target="_blank">História dos Games</a>
-  </nav>
+    <h1><strong>🎮GameZone Retro🕹️🤩</strong> </h1>
+  <!-- Segundo titulos -->
+    <h2>🤗 A <strong> melhor loja </strong> de <em>jogos clássicos da cidade!</em> </h2>
+    <hr>
+    
+    <!-- Links -->
+      <p><a href="#precos">Ver preços💸</a></p>
+    
+    <p><a href="https://www.instagram.com/" 
+        target="_blank">Instagram📸🤳 </a></p>
+        <hr>
+        <!-- imagem -->
+         <img src="retro.jpg" alt=""Logo da empresa" width="500" heigth="500">   
+     <hr>
+     <h2><strong>🎮Consoles Disponiveis </strong></h2>
+      <ul>
+        <li>Nintendo (NES)</li>
+        <li>Super Nintendo (SNES)</li>
+        <li>Sega Genesis</li>
+        <li>Atari 2600</li>
+        <hr>
+        <h2><strong>💰💸 Preços</strong></h2>
+       <table border="1">
+         <thead>
+            <tr>
+                <th>Jogo</th>
+                <th>Preço</th>
+                <th>Estoque</th>
+            </tr>
+         </thead>
+         <!-- Corpo da tabela -->
+          <tbody>
+            <tr>
+                <td>Super Mario Bros</td>
+                <td>NES</td>
+                <td>R$ 85,00</td>
+            </tr>
+            <tr>
+                <td>Sonic</td>
+                <td>Genesis</td>
+                <td>R$ 70,00</td>
+            </tr>
+            <tr>
+                <td>Zelda</td>
+                <td>NES</td>
+                <td>R4 120,00</td>
+            </tr>
+          </tbody>
+     </table>
+     <footer>
+  <p>&copy; 2025 GameZone Retro</p>
+</footer>
 
-  <h2>Consoles em Destaque</h2>
-  <ul>
-    <li>Super Nintendo (SNES)</li>
-    <li>Sega Genesis / Mega Drive</li>
-    <li>PlayStation 1</li>
-  </ul>
-
-  <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=300" alt="Console Retro">
-
-  <h2 id="produtos">Tabela de Preços</h2>
-  <table border="1">
-    <tr><th>Produto</th><th>Preço</th></tr>
-    <tr><td>Super Mario World</td><td>R$ 150,00</td></tr>
-    <tr><td>Sonic the Hedgehog</td><td>R$ 120,00</td></tr>
-    <tr><td>Castlevania: Symphony of the Night</td><td>R$ 250,00</td></tr>
-  </table>
+        
 </body>
 </html>
 ```
 
-## 🔧 Especificações Técnicas
-
-| Item | Especificação | 
-| :--- | :--- |
-| **Limite de Código** | Máximo de 50 linhas de HTML | 
-| **Tecnologia** | HTML5 puro (sem CSS/JS externo) | 
-| **Tema** | Loja de Games Retro | 
-| **Foco** | Funcionalidade e estrutura sintática em vez de estilo visual | 
+ 
 
 ## 🏆 Critérios de Avaliação
 
@@ -76,7 +100,6 @@ Abaixo está a implementação completa da solução, estruturada em **28 linhas
 ## 🛠️ Tecnologias Utilizadas
 
 * **HTML5**
-* **Markdown** (Documentação)
 
 ## 🚀 Como Executar o Projeto
 
