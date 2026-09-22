@@ -76,8 +76,9 @@ Abaixo está a implementação completa da solução, estruturada em **28 linhas
             </tr>
           </tbody>
      </table>
+
      <footer>
-  <p>& copy; 2025 GameZone Retro</p>
+  <p> &copy; 2025 GameZone Retro </p>
 </footer>
 
         
