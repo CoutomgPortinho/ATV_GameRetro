@@ -31,18 +31,16 @@ Abaixo está a implementação completa da solução, estruturada em **28 linhas
 <body>
     <h1><strong>🎮GameZone Retro🕹️🤩</strong> </h1>
   <!-- Segundo titulos -->
-    <h2>🤗 A <strong> melhor loja </strong> de <em>jogos clássicos da cidade!</em> </h2>
-    <hr>
+    <h2>A <strong> melhor loja </strong> de <em>jogos clássicos da cidade!</em> </h2>
     
     <!-- Links -->
-      <p><a href="#precos">Ver preços💸</a></p>
+       
+      <p> <a href="#precos">Ver preços💸</a></p>
     
     <p><a href="https://www.instagram.com/" 
         target="_blank">Instagram📸🤳 </a></p>
-        <hr>
         <!-- imagem -->
          <img src="retro.jpg" alt=""Logo da empresa" width="500" heigth="500">   
-     <hr>
      <h2><strong>🎮Consoles Disponiveis </strong></h2>
       <ul>
         <li>Nintendo (NES)</li>
@@ -50,7 +48,7 @@ Abaixo está a implementação completa da solução, estruturada em **28 linhas
         <li>Sega Genesis</li>
         <li>Atari 2600</li>
         <hr>
-        <h2><strong>💰💸 Preços</strong></h2>
+        <h2 id="precos" <strong>Preços</strong></h2>
        <table border="1">
          <thead>
             <tr>
@@ -79,7 +77,7 @@ Abaixo está a implementação completa da solução, estruturada em **28 linhas
           </tbody>
      </table>
      <footer>
-  <p>&copy; 2025 GameZone Retro</p>
+  <p>& copy; 2025 GameZone Retro</p>
 </footer>
 
         
