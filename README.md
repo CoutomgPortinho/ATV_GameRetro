@@ -100,11 +100,4 @@ Abaixo está a implementação completa da solução, estruturada em **28 linhas
 
 * **HTML5**
 
-## 🚀 Como Executar o Projeto
 
-1. Clone este repositório para a sua máquina local:
-   ```bash
-(https://github.com/CoutomgPortinho/ATV_GameRetro/blob/main/README.md)
-   ```
-2. Abra a pasta do projeto.
-3. Clique duas vezes no arquivo `index.html` para abri-lo no seu navegador web preferido.
